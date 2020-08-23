@@ -4,7 +4,7 @@ Student::Student(){
     std::cout <<"Constructor called"<<std::endl;
 }
 
-void Student::set_name(std::string set_name){
+void Student::set_name(std::string name){
     if(name == this->name) return;
     this->name = name;
 }
