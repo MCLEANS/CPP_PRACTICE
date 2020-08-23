@@ -1,7 +1,7 @@
 #include "student.h"
 
 Student::Student(){
-
+    std::cout <<"Constructor called"<<std::endl;
 }
 
 void Student::set_name(std::string set_name){
@@ -32,5 +32,5 @@ int Student::get_age()const{
 }
 
 Student::~Student(){
-
+    std::cout<<"Destructor called"<<std::endl;
 }
