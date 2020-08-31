@@ -11,5 +11,7 @@ int main(int argc, char **argv){
    std::cout<<"Absentee 0 registration : "<<absentees[0].get_registration()<<std::endl;
    std::cout<<"Absentee 1 registration : "<<absentees[1].get_registration()<<std::endl;
 
+   delete[] absentees;
+
     return 0;  
 }
