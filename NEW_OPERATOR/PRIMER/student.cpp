@@ -1,8 +1,8 @@
 #include "student.h"
 
-int count = 0;
+int Student::count = 0;
 
-Student::Student(std::string registration = "NULL"):registration(registration){
+Student::Student(std::string registration):registration(registration){
     count ++;
     std::cout <<"Created object "<<count <<std::endl;
 }
