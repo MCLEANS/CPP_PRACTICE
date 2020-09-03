@@ -32,7 +32,7 @@ int main(int argc, char* argv[]){
 
     std::cout<<"\n";
 
-   auto sort_ascending = [&user_numbers]()->Extremes{
+   auto find_max_min = [&user_numbers]()->Extremes{
        Extremes extremes;
        extremes.min = user_numbers[0];
        extremes.max = user_numbers[0];
@@ -44,7 +44,7 @@ int main(int argc, char* argv[]){
        return extremes;
    };
 
-   Extremes extremes = sort_ascending();
+   Extremes extremes = find_max_min();
 
     std::cout<<"Max = "<<extremes.max<<std::endl;
     std::cout<<"Min = "<<extremes.min<<std::endl; 
