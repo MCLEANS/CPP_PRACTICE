@@ -11,7 +11,18 @@ int main(int argc, char *argv[]){
 	info["age"] = 24;
 	info["is_present"] = true;
 
+
+
 	std::cout<<info["name"]<<std::endl;
+
+	nlohmann::json medium = {
+		{"name","medium"},
+		{"course","chemistry"},
+		{"age",23},
+		{"is_present",true}
+  	};
+
+	std::cout<<medium<<std::endl;
 
 	return 0;
 }
