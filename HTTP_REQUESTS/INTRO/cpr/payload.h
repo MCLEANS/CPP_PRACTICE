@@ -6,7 +6,7 @@
 #include <memory>
 #include <string>
 
-#include "cpr/curl_container.h"
+#include "curl_container.h"
 #include <utility>
 
 namespace cpr {
