@@ -12,6 +12,8 @@ class Vehicle{
     
     private:
     public:
+        static int count;
+
     public:
         Vehicle(std::string registration_plate,
                 std::string color,

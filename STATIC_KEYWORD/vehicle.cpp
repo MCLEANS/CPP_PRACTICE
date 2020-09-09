@@ -1,5 +1,7 @@
 #include "vehicle.h"
 
+int Vehicle::count = 0;
+
 Vehicle::Vehicle(std::string registration_plate,
                 std::string color,
                 int purchase_year,
@@ -8,7 +10,8 @@ Vehicle::Vehicle(std::string registration_plate,
                                     purchase_year(purchase_year),
                                     type(type){
 
-
+        //increase the number of count 
+        count++;                        
  }
 
  std::string Vehicle::get_registration_plate()const{
