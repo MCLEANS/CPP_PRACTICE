@@ -30,7 +30,7 @@ std::string Vehicle::get_type()const{
     return this->type;
 }
 
- Vehicle::~Vehicle(){
+Vehicle::~Vehicle(){
 
-
- }
+    //Do destructor stuff here
+}
